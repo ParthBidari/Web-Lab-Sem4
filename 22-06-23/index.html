@@ -16,7 +16,30 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <h2>Javascript in today's class</h2>
+        <h2>Demo Confirm()</h2>
+        <button onclick="save()">Save Data</button>
+        <p id="msg"></p>
+
         
-        <script src="" async defer></script>
+        <script>
+
+            function save(){
+                var userPref;
+                if(confirm("Do you want to  save chnages") == true){
+                    userPref= "Data saved successfully";
+                }
+                else{
+                    userPref = "Save cancelled";
+                }
+                document.getElementById("msg").innerHTML = userPref;
+            }
+            
+
+
+            //alert( "Javascript in today's class");
+           // alert(100);
+            //alert(date());
+        </script>
     </body>
 </html>
