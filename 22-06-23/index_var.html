@@ -14,14 +14,24 @@
         <p id="a"></p>
         <p id="b"></p>
         <p id="c"></p>
+        <p id="d"></p>
+        <p id="e"></p>
         <script>
           var name = "javascript";
           var num = 8;
           let Status = true;
 
+          const person = {
+            name : "John",
+            age  : 33
+          };
+
           document.getElementById("a").innerHTML = name;
           document.getElementById("b").innerHTML = num;
           document.getElementById("c").innerHTML = Status;
+          document.getElementById("d").innerHTML = person.name;
+          person.name = "Bob";
+          document.getElementById("e").innerHTML =  person.name;
         </script>
     </body>
 </html>
