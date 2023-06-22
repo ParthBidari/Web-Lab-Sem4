@@ -1,0 +1,18 @@
+body { background-color: rgb(239, 249, 253);
+    font-family: sans-serif;
+    }
+h1{
+    color: black;
+    text-align: center;
+    background-color:rgb(182, 233, 233) ;
+    margin: 10px;
+    padding: 8PX;
+    border-radius: 15px;
+    
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 6PX;
+    color: rgb(87, 87, 87);
+}

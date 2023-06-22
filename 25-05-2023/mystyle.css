@@ -1,0 +1,25 @@
+h2{
+
+    color: violet;
+     background-color: yellow;
+}
+.table{
+    color: blue;
+    border-radius: 10px;
+}
+
+.align{
+    color: red;
+    background-color: yellowgreen;
+    border-radius:5px;
+    font-size: large;
+}
+
+.hexa{
+    color: blue;
+    background-color: hsl(9,100%, 64%);
+   
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/280h/abstract-background_VCJK4NBK4W.jpg);
+    background-image:no repeat;
+
+}

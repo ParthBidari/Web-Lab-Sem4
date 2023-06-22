@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WEB LAB - 15/06/2023</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <style>
+    /* Style the labels */
+    label {
+      display: block;
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Style the inputs */
+    input[type="text"], input[type="email"] {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      padding: 0.5em;
+      font-size: 1.2em;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 1em;
+    }
+
+    /* Style the submit button */
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+    textarea {
+        width: 50%;
+        height: 20%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+        resize: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 5px #ccc;
+        margin-bottom: 30px;
+      }
+
+    /* Style the submit button on hover */
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+    <h1>SELECT COUNTRY TO GET ITS CAPITAL</h1>
+  <form>
+    <label for="name">Country Name:</label>
+    <!-- <input type="text"  name="name" placeholder="Enter country name"> -->
+    <select name="new"  id="name"onclick="myfun()" reqire>
+        <option value=""></option>
+        <option value="New Delhi">India</option>
+        <option value="Washington DC">USA</option>
+        <option value="Bejing">China</option>
+        <option value="Moscow">Russia</option>
+        <option value="Rio De j">Brazil</option>
+        <option value="Tokyo">Japan</option>
+        </option>
+            
+      </select>
+
+      
+    <label for="capital">Capital:</label>
+    <input type="text" id="cap" name="capital" placeholder="Capital">
+    <!-- <textarea id="text-area" name="capital" placeholder="Capital of the country is"  rows="4" cols="50" readonly></textarea> <br> -->
+
+    <!-- <input type="submit" value="Submit"> -->
+  </form>
+
+
+
+
+  <script>
+    function myun(){
+        var a=document.getElementById("name").value;
+        document.getElementById("cap").value=a;
+    }
+  </script>
+</body>
+</html>
